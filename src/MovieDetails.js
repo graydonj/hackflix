@@ -19,7 +19,7 @@ function MovieDetails () {
     }).then((res) => {
       setMovie(res.data);
     })
-  }, )
+  }, [])
 
   const {original_title, tagline, overview, poster_path} = movie;
 
